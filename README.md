@@ -50,3 +50,6 @@ Setting just the src will use the same name omitting the extension, the result w
 	name: Decompress in the same folder using the same name
   	decompress:
       src: '/tmp/bootimage.iso.zip'
+
+<h3>How to Use</h3>
+Just add it in your role's library folder or the ansible module folder and call it just as any ansible module. The module requires python version 2.7 on the target host.
